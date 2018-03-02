@@ -1,11 +1,11 @@
 library(dplyr)
 
-# Download the files
+# Download the files to a newly created directory called 'data'
 if(!file.exists("./data")){dir.create("./data")}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl,destfile="./data/Dataset.zip")
 
-# Unzip dataSet to the data directory
+# Unzip dataSet to the data directory - a subfolder will be created called 'UCI HAR Dataset'
 unzip(zipfile="./data/Dataset.zip",exdir="./data")
 
 # Test Data
