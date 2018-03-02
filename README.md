@@ -19,6 +19,8 @@ Start RStudio and set your working directory to the download directory
 
 Load the R script using source("run_analysis.R") and run using run_analysis()
 
+A new version of the end file tidy_data.txt will be preoduced in a subfolder called 'data'.
+
 
 ## Overview from the assignment instructions
 
